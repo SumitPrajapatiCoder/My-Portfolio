@@ -1,5 +1,5 @@
 
-import React from "react";
+import React, { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import {
   FaUserAlt,
@@ -9,11 +9,17 @@ import {
   FaEnvelope,
   FaFileAlt,
   FaGithub,
+  FaBars,
+  FaTimes,
 } from "react-icons/fa";
 
 import "./header.css";
 
 const Header = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => setMenuOpen(!menuOpen);
+
   return (
     <header className="navbar">
       <div className="header-content">
@@ -35,30 +41,35 @@ const Header = () => {
         </h2>
       </div>
 
-      <nav>
+      {/* Dropdown Toggle Button */}
+      <div className="menu-toggle" onClick={toggleMenu}>
+        {menuOpen ? <FaTimes /> : <FaBars />}
+      </div>
+
+      <nav className={`nav-container ${menuOpen ? "open" : ""}`}>
         <ul className="nav-links">
           <li>
-            <a href="#about">
+            <a href="#about" onClick={() => setMenuOpen(false)}>
               <FaUserAlt /> About
             </a>
           </li>
           <li>
-            <a href="#education">
+            <a href="#education" onClick={() => setMenuOpen(false)}>
               <FaGraduationCap /> Education
             </a>
           </li>
           <li>
-            <a href="#skill">
+            <a href="#skill" onClick={() => setMenuOpen(false)}>
               <FaTools /> Skills
             </a>
           </li>
           <li>
-            <a href="#projects">
+            <a href="#projects" onClick={() => setMenuOpen(false)}>
               <FaProjectDiagram /> Projects
             </a>
           </li>
           <li>
-            <a href="#contact">
+            <a href="#contact" onClick={() => setMenuOpen(false)}>
               <FaEnvelope /> Contact
             </a>
           </li>
@@ -67,6 +78,7 @@ const Header = () => {
               href="/Sumit Prajapati Resume Updated.pdf"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => setMenuOpen(false)}
             >
               <FaFileAlt /> Resume
             </a>
@@ -76,6 +88,7 @@ const Header = () => {
               href="https://github.com/SumitPrajapatiCoder"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => setMenuOpen(false)}
             >
               <FaGithub /> GitHub
             </a>
