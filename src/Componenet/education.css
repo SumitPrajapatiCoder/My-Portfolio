@@ -1,0 +1,75 @@
+.education-section {
+    background-color: #0f172a;
+    color: #f1f1f1;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .education-heading {
+    font-size: 2.5rem;
+    color: #00ffc3;
+    margin-bottom: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  
+  .education-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .education-row {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1e293b;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 255, 200, 0.07);
+    transition: transform 0.3s ease;
+  }
+  
+  .education-row:hover {
+    transform: translateY(-4px);
+  }
+  
+  .education-left {
+    text-align: left;
+  }
+  
+  .education-left h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #00ffc8;
+  }
+  
+  .education-left p {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .education-right {
+    text-align: right;
+  }
+  
+  .education-right p {
+    margin: 0.3rem 0;
+    font-size: 1rem;
+  }
+
+  @media (max-width: 768px) {
+    .education-row {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+    }
+  
+    .education-left, .education-right {
+      text-align: center;
+    }
+  }
+  

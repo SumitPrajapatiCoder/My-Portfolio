@@ -1,0 +1,72 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #f4f4f4, #e8f0ff);
+  color: #333;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff;
+  padding: 1rem 2rem;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.logo {
+  margin: 0;
+}
+
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links li a:hover {
+  border-bottom: 2px solid white;
+}
+
+
+.content-wrapper {
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+h2 {
+  color: #007bff;
+}
+
+
+#about,
+#education,
+#skill,
+#projects,
+#contact {
+  scroll-margin-top: 100px;
+}
