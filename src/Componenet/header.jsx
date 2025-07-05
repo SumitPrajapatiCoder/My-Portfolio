@@ -1,4 +1,3 @@
-
 import React, { useState } from "react";
 import { Typewriter } from "react-simple-typewriter";
 import {
@@ -17,33 +16,33 @@ import "./header.css";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-
   const toggleMenu = () => setMenuOpen(!menuOpen);
 
   return (
     <header className="navbar">
-      <div className="header-content">
-        <h1 className="header-title">Hi, I'm Sumit Prajapati</h1>
-        <h2 className="header-subtitle">
-          <Typewriter
-            words={[
-              "Full Stack Developer",
-              "MERN Stack Enthusiast",
-              "Problem Solver",
-            ]}
-            loop={0}
-            cursor
-            cursorStyle="_"
-            typeSpeed={70}
-            deleteSpeed={50}
-            delaySpeed={1500}
-          />
-        </h2>
-      </div>
+      <div className="header-top">
+        <div className="header-content">
+          <h1 className="header-title">Hi, I'm Sumit Prajapati</h1>
+          <h2 className="header-subtitle">
+            <Typewriter
+              words={[
+                "Full Stack Developer",
+                "MERN Stack Enthusiast",
+                "Problem Solver",
+              ]}
+              loop={0}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1500}
+            />
+          </h2>
+        </div>
 
-      {/* Dropdown Toggle Button */}
-      <div className="menu-toggle" onClick={toggleMenu}>
-        {menuOpen ? <FaTimes /> : <FaBars />}
+        <div className="menu-toggle" onClick={toggleMenu}>
+          {menuOpen ? <FaTimes /> : <FaBars />}
+        </div>
       </div>
 
       <nav className={`nav-container ${menuOpen ? "open" : ""}`}>

@@ -16,7 +16,9 @@ import {
   SiCplusplus,
   SiPostman,
   SiFigma,
-  SiGooglechrome,
+  SiDjango,
+  SiMysql,
+  SiSqlite
 } from "react-icons/si";
 
 import "./skill.css";
@@ -29,6 +31,7 @@ const skillGroups = [
       { name: "C/C++", icon: <SiCplusplus /> },
       { name: "Python", icon: <FaPython /> },
       { name: "SQL", icon: <FaDatabase /> },
+      {name: "MySQL", icon: <SiMysql /> },
       { name: "OOP" },
     ],
   },
@@ -48,6 +51,7 @@ const skillGroups = [
       { name: "Express.js", icon: <SiExpress /> },
       { name: "MongoDB", icon: <SiMongodb /> },
       { name: "SQL", icon: <FaDatabase /> },
+      { name: "MySQL", icon: <SiMysql /> },
     ],
   },
   {
@@ -55,14 +59,13 @@ const skillGroups = [
     skills: [
       { name: "Git", icon: <FaGithub /> },
       { name: "GitHub", icon: <FaGithub /> },
-      // { name: "Postman", icon: <SiPostman /> },
-      // { name: "Figma", icon: <SiFigma /> },
-      // { name: "Chrome DevTools", icon: <SiGooglechrome /> },
+      { name: "Postman", icon: <SiPostman /> },
+      { name: "Figma", icon: <SiFigma /> },
     ],
   },
   {
     title: "Full Stack",
-    skills: [{ name: "MERN Stack" }],
+    skills: [{ name: "Django", icon: <SiDjango /> }, { name: "MERN Stack" }],
   },
 ];
 
