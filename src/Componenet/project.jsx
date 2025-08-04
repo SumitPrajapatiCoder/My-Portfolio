@@ -26,7 +26,7 @@ const projects = [
     description:
       "Django-based chat app where users log in and join rooms to send real-time messages.",
     link: "https://github.com/SumitPrajapatiCoder/Group-Chat-System.git",
-    live: "http://group-chat-system-production-30b0.up.railway.app",
+    live: "http://group-chat-system-production-9ddd.up.railway.app",
   },
   {
     title: "Gemini Chatbot",
