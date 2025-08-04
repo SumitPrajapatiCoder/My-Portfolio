@@ -9,6 +9,7 @@ import {
   FaNodeJs,
   FaDatabase,
   FaGithub,
+  FaDocker
 } from "react-icons/fa";
 import {
   SiMongodb,
@@ -61,6 +62,7 @@ const skillGroups = [
       { name: "GitHub", icon: <FaGithub /> },
       { name: "Postman", icon: <SiPostman /> },
       { name: "Figma", icon: <SiFigma /> },
+      { name : "Docker", icon: <FaDocker/>}
     ],
   },
   {
