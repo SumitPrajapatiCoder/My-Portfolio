@@ -35,6 +35,12 @@ const projects = [
     link: "https://github.com/SumitPrajapatiCoder/Chat-With-Gemini.git",
     live: "http://sumitprajapaticoder-django--8000.prod1.defang.dev",
   },
+  {
+    title: "AI Based SkillTracker",
+    description:
+      "An AI-powered MERN platform to learn, test, and track programming skills through quizzes, mock tests, and contests — featuring personalized study plans & road maps, progress tracking, and certificates.",
+    live: "https://ai-skilltracker-frontend.onrender.com",
+  },
 ];
 
 
