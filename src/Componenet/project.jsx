@@ -41,6 +41,13 @@ const projects = [
       "An AI-powered MERN platform to learn, test, and track programming skills through quizzes, mock tests, and contests — featuring personalized study plans & road maps, progress tracking, and certificates.",
     live: "https://ai-skilltracker-frontend.onrender.com",
   },
+  {
+    title: "AI Test Case Generator",
+    description:
+      "A MERN stack app that generates automated test cases and summaries from GitHub repository files using the Gemini API, supporting multi-file selection and dynamic code generation.",
+    link: "https://github.com/SumitPrajapatiCoder/Test-Case-Generator.git",
+  }
+
 ];
 
 
