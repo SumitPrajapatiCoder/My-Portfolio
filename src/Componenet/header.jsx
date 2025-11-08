@@ -28,6 +28,8 @@ const Header = () => {
               words={[
                 "Full Stack Developer",
                 "MERN Stack Enthusiast",
+                "Java Developer",
+                "Python Programmer",
                 "Problem Solver",
               ]}
               loop={0}
