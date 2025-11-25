@@ -33,7 +33,7 @@ const skillGroups = [
       { name: "Python", icon: <FaPython /> },
       { name: "SQL", icon: <FaDatabase /> },
       {name: "MySQL", icon: <SiMysql /> },
-      { name: "OOP" },
+    
     ],
   },
   {
