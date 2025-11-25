@@ -76,7 +76,7 @@ const Header = () => {
           </li>
           <li>
             <a
-              href="/Sumit Prajapati Resume Updated.pdf"
+              href="/Sumit Prajapati Resume NOV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}

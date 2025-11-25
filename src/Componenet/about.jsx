@@ -19,20 +19,38 @@ const About = () => {
             delaySpeed={1500}
           />
         </h2>
+
         <p>
-          I am a passionate full-stack developer currently pursuing B.E. in
-          Computer Engineering at St. Francis Institute of Technology with an
-          average CGPA of 9.03.
+          I am passionate about backend development and enjoy building scalable,
+          secure, and performance-oriented server-side applications that solve
+          real-world problems.
         </p>
+
         <p>
-          I specialize in building web applications using the MERN Stack —
-          MongoDB, Express.js, React.js, and Node.js — along with solid
-          experience in Java, C++, and SQL.
+          I am a dedicated full-stack developer currently pursuing my B.E. in
+          Computer Engineering at St. Francis Institute of Technology, maintaining
+          a strong academic record with an average CGPA of 9.0 .
         </p>
+
         <p>
-          I have a strong foundation in both frontend and backend development
-          and have built multiple full-stack projects, including doctor
-          appointment systems, billing systems, and e-commerce solutions.
+          My core expertise lies in the <strong>MERN Stack</strong>—MongoDB,
+          Express.js, React.js, and Node.js. I also have solid programming
+          experience in <strong>Java, C++, and SQL</strong>.
+        </p>
+
+        <p>
+          Beyond MERN, I am also experienced in modern backend frameworks such as
+          <strong> Django (Python)</strong> and <strong>Spring Boot (Java)</strong>.
+          These technologies help me design robust APIs, microservices, and
+          production-ready backend architectures.
+        </p>
+
+        <p>
+          With a strong foundation in both frontend and backend development, I
+          have built multiple end-to-end applications, including doctor appointment
+          systems, billing platforms, and e-commerce solutions. I enjoy writing
+          clean, efficient code and continuously improving my skills to stay
+          aligned with industry standards.
         </p>
       </div>
     </section>
