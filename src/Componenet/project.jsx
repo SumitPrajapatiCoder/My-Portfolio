@@ -39,7 +39,7 @@ const projects = [
     title: "AI Based SkillTracker",
     description:
       "An AI-powered MERN platform to learn, test, and track programming skills through quizzes, mock tests, and contests — featuring personalized study plans & road maps, progress tracking, and certificates.",
-    link: "https://github.com/SumitPrajapatiCoder/SkillTracker",
+    link: "https://github.com/SumitPrajapatiCoder/AI-SkillTracker.git",
     live: "https://ai-skilltracker-frontend.onrender.com",
   },
   {
